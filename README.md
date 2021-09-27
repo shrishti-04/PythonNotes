@@ -8,3 +8,6 @@ Functions are pieces of code that perform a unit of work.
 Keywords are reserved words that are used to construct instructions. </p>
 <p> Some of the keywords are: </p>
 <img src="screenshots/keywords.jpg">
+
+<p>You can view some examples from here</p>
+<a href="https://www.programiz.com/python-programming/keyword-list">examples</a>
