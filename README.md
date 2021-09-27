@@ -11,11 +11,11 @@ Keywords are reserved words that are used to construct instructions. </p>
 
 <p>You can view some examples from here <a href="https://www.programiz.com/python-programming/keyword-list">examples</a></p>
 
-<h2>Operrations</h2>
-<p> a + b = Adds a and b
-a - b = Subtracts b from a
-a * b = Multiplies a and b
-a / b = Divides a by b
-a ** b = Elevates a to the power of b. For non integer values of b, this becomes a root (i.e. a**(1/2) is the square root of a)
-a // b = The integer part of the integer division of a by b
+<h2>Operations</h2>
+<p> a + b = Adds a and b <br>
+a - b = Subtracts b from a <br>
+a * b = Multiplies a and b <br>
+a / b = Divides a by b <br>
+a ** b = Elevates a to the power of b. For non integer values of b, this becomes a root (i.e. a**(1/2) is the square root of a) <br>
+a // b = The integer part of the integer division of a by b <br>
 a % b = The remainder part of the integer division of a by b </p>
