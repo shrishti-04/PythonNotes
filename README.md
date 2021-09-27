@@ -11,8 +11,6 @@ Keywords are reserved words that are used to construct instructions. </p>
 
 <p>You can view some examples from here <a href="https://www.programiz.com/python-programming/keyword-list">examples</a></p>
 
-<h2>Operations</h2>
-
 <p> a + b = Adds a and b
 a - b = Subtracts b from a
 a * b = Multiplies a and b
