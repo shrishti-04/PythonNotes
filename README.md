@@ -19,3 +19,7 @@ a / b = Divides a by b <br>
 a ** b = Elevates a to the power of b. For non integer values of b, this becomes a root (i.e. a**(1/2) is the square root of a) <br>
 a // b = The integer part of the integer division of a by b <br>
 a % b = The remainder part of the integer division of a by b </p>
+
+<h2>Data Types</h2>
+<p><b>Note:</b> Do not try to add different types data types together otherwise you would get error</p>
+<p>For example: print(3 + "5")</p>
