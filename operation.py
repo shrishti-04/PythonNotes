@@ -32,6 +32,5 @@ print(i%j)
 
 # PARENTHESES
 # Use Python to calculate (((1+2)*3)/4)^5 
-
 print((((1+2)*3)/4)**5)
 # OUTPUT: 57.665
