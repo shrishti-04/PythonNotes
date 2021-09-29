@@ -23,3 +23,8 @@ a % b = The remainder part of the integer division of a by b </p>
 <h2>Data Types</h2>
 <p><b>Note:</b> Do not try to add different types data types together otherwise you would get error</p>
 <p>For example: print(3 + "5")</p>
+
+<h2>Variable</h2>
+<p><b>Variables:</b> Names that we give to certain values in our programs.</p>
+<p><b>Assignment:</b> The process of storing a value inside a variable.</p>
+<p><b>Expression:</b> A combination of numbers, symbols, or other variables that produce a result when evaluated.</p>
