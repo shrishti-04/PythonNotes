@@ -51,11 +51,11 @@ a % b = The remainder part of the integer division of a by b </p>
 
 <p>In Python, we branch our code using if, else and elif. This is the branching syntax:</p>
 
-<p>if condition1:
-	if-block
-elif condition2:
-	elif-block
-else:
+<p>if condition1:<br>
+	if-block<br>
+elif condition2:<br>
+	elif-block<br>
+else:<br>
 	else-block</p>
 
 <p><b>Note:</b> The if-block will be executed if condition1 is True. The elif-block will be executed if condition1 is False and condition2 is True. The else block will be executed when all the specified conditions are false.</p>
