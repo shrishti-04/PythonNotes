@@ -28,3 +28,18 @@ a % b = The remainder part of the integer division of a by b </p>
 <p><b>Variables:</b> Names that we give to certain values in our programs.</p>
 <p><b>Assignment:</b> The process of storing a value inside a variable.</p>
 <p><b>Expression:</b> A combination of numbers, symbols, or other variables that produce a result when evaluated.</p>
+
+<h2>Functions</h2>
+<p>A function is defined with the def keyword, followed by the name we want to give our function. After the name, we have the parameters, also called arguments, for the function enclosed in parentheses. A function can have no parameters, or it can have multiple parameters. Parameters allow us to call a function and pass it data, with the data being available inside the function as variables with the same name as the parameters.</p>
+
+<h2>Comparison Operators</h2>
+<p>In Python, we can use comparison operators to compare values. When a comparison is made, Python returns a boolean result, or simply a True or False. </p>
+
+<ul>
+<li>To check if two values are the same, we can use the equality operator: == </li>
+<li>To check if two values are not the same, we can use the not equals operator: != </li>
+
+<p>We can also check if values are greater than or lesser than each other using > and <. <br> <b>Note:</b> If you try to compare data types that aren’t compatible, like checking if a string is greater than an integer, Python will throw a TypeError.</p>
+
+<p>The three main logical operators are <b>and</b>, <b>or</b>, and <b>not</b>. When using the <b>and</b> operator, both sides of the statement being evaluated must be true for the whole statement to be true. When using the <b>or</b> operator, if either side of the comparison is true, then the whole statement is true. Lastly, the <b>not</b> operator simply inverts the value of the statement immediately following it. So if a statement evaluates to True, and we put the not operator in front of it, it would become False.</p>
+

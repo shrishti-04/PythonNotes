@@ -9,6 +9,8 @@ area_b = area_triangle(4,8)
 result = area_a + area_b
 print("Therefore the total area of the triangle is: " + str(result))
 
+# OUTPUT: Therefore the total area of the triangle is: 33.5
+
 # Q2.) Use the get_seconds function to work out the amount
 # of seconds in 2 hours and 30 minutes, then add this number to the amount of seconds
 # in 45 minutes and 15 seconds. Then print the result.
@@ -20,6 +22,8 @@ amount_a = get_seconds(2,30,0)
 amount_b = get_seconds(0,45,15)
 result = amount_a + amount_b
 print(result)
+
+# OUTPUT: 11715
 
 # Q3. Functions also reduces the amount of code. For example:
 
