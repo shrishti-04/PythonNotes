@@ -52,6 +52,7 @@ a % b = The remainder part of the integer division of a by b </p>
 <p>In Python, we branch our code using if, else and elif. This is the branching syntax:</p>
 
 <p>if condition1:<br>
+
 	if-block<br>
 elif condition2:<br>
 	elif-block<br>
@@ -59,3 +60,38 @@ else:<br>
 	else-block</p>
 
 <p><b>Note:</b> The if-block will be executed if condition1 is True. The elif-block will be executed if condition1 is False and condition2 is True. The else block will be executed when all the specified conditions are false.</p>
+
+<h2>Loops</h2>
+
+<h3>While loop</h3>
+<p>A while loop will continuously execute code depending on the value of a condition.</p>
+
+<p>SYNTAX</p>
+<p>while condition:
+    body</p>
+
+<h3>For loop</h3>
+<p>For loops allow you to iterate over a sequence of values.</p>
+
+<p>SYNTAX</p>
+<p>for variable in sequence:
+    body</p>
+
+<p>The range() function:
+
+range() generates a sequence of integer numbers. It can take one, two, or three parameters:
+<ul>
+<li>range(n): 0, 1, 2, ... n-1</li>
+
+<li>range(x,y): x, x+1, x+2, ... y-1</li>
+
+<li>range(p,q,r): p, p+r, p+2r, p+3r, ... q-1 (if it's a valid increment)</li></p>
+</ul>
+<h2>When to use which loop</h2>
+<p>Use <b>For Loops</b> when there is sequence of elements that you want to iterate</p>
+<p>Use <b>While Loops</b> when you want to repeat an action until a condition changes.</p>
+
+<h3>Break & Continue</h3>
+<p>You can interrupt both while and for loops using the break keyword. We normally do this to interrupt a cycle due to a separate condition.
+
+You can use the continue keyword to skip the current iteration and continue with the next one. This is typically used to jump ahead when some of the elements of the sequence aren’t relevant.</p>
