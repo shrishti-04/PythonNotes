@@ -67,14 +67,14 @@ else:<br>
 <p>A while loop will continuously execute code depending on the value of a condition.</p>
 
 <p>SYNTAX</p>
-<p>while condition:
+<p>while condition:<br>
     body</p>
 
 <h3>For loop</h3>
 <p>For loops allow you to iterate over a sequence of values.</p>
 
 <p>SYNTAX</p>
-<p>for variable in sequence:
+<p>for variable in sequence: <br>
     body</p>
 
 <p>The range() function:
