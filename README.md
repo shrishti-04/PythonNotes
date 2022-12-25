@@ -107,3 +107,44 @@ You can use the continue keyword to skip the current iteration and continue with
 
 <h3>Tuples</h3>
 <p>Lists are sequences of elements of any data type, and are mutable. The third sequence type is the tuple. Tuples are like lists, since they can contain elements of any data type. But unlike lists, tuples are immutable. They’re specified using parentheses instead of square brackets.Tuples can be useful when we need to ensure that an element is in a certain position and will not change. Since lists are mutable, the order of the elements can be changed on us. Since the order of the elements in a tuple can't be changed, the position of the element in a tuple can have meaning.</p>
+
+<h3> List Comprehension </h3>
+<h4>Lists and Tuples Operations Cheat Sheet</h4>
+<p> Lists and tuples are both sequences, so they share a number of sequence operations. But, because lists are mutable, there are also a number of methods specific just to lists. This cheat sheet gives you a run down of the common operations first, and the list-specific operations second.
+
+Common sequence operations
+len(sequence) - Returns the length of the sequence
+
+for element in sequence - Iterates over each element in the sequence
+
+if element in sequence - Checks whether the element is part of the sequence
+
+sequence[i] - Accesses the element at index i of the sequence, starting at zero
+
+sequence[i:j] - Accesses a slice starting at index i, ending at index j-1. If i is omitted, it's 0 by default. If j is omitted, it's len(sequence) by default.
+
+for index, element in enumerate(sequence) - Iterates over both the indexes and the elements in the sequence at the same time </p>
+
+<p> <b>List-specific operations and methods </b>
+
+<li>
+<ul>
+list[i] = x - Replaces the element at index i with x
+
+list.append(x) - Inserts x at the end of the list
+
+list.insert(i, x) - Inserts x at index i
+
+list.pop(i) - Returns the element a index i, also removing it from the list. If i is omitted, the last element is returned and removed.
+
+list.remove(x) - Removes the first occurrence of x in the list
+
+list.sort() - Sorts the items in the list
+
+list.reverse() - Reverses the order of items of the list
+
+list.clear() - Removes all the items of the list
+
+list.copy() - Creates a copy of the list
+
+list.extend(other_list) - Appends all the elements of other_list at the end of list </ul> </li> <p>
