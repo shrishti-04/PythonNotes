@@ -127,24 +127,24 @@ for index, element in enumerate(sequence) - Iterates over both the indexes and t
 
 <p> <b>List-specific operations and methods </b>
 
-<li>
 <ul>
-list[i] = x - Replaces the element at index i with x
+<li> list[i] = x - Replaces the element at index i with x </li>
 
-list.append(x) - Inserts x at the end of the list
+<li>list.append(x) - Inserts x at the end of the list</li>
 
-list.insert(i, x) - Inserts x at index i
+<li>list.insert(i, x) - Inserts x at index i</li>
 
-list.pop(i) - Returns the element a index i, also removing it from the list. If i is omitted, the last element is returned and removed.
+<li>list.pop(i) - Returns the element a index i, also removing it from the list. If i is omitted, the last element is returned and removed.</li>
 
-list.remove(x) - Removes the first occurrence of x in the list
+<li>list.remove(x) - Removes the first occurrence of x in the list </li>
 
-list.sort() - Sorts the items in the list
+<li>list.sort() - Sorts the items in the list </li>
 
-list.reverse() - Reverses the order of items of the list
+<li>list.reverse() - Reverses the order of items of the list </li>
 
-list.clear() - Removes all the items of the list
+<li>list.clear() - Removes all the items of the list </li>
 
-list.copy() - Creates a copy of the list
+<li>list.copy() - Creates a copy of the list </li>
 
-list.extend(other_list) - Appends all the elements of other_list at the end of list </ul> </li> <p>
+<li>list.extend(other_list) - Appends all the elements of other_list at the end of list </li>
+</ul> <p>
