@@ -39,8 +39,6 @@ a % b = The remainder part of the integer division of a by b </p>
 <li>To check if two values are the same, we can use the equality operator: == </li>
 <li>To check if two values are not the same, we can use the not equals operator: != </li>
 
-<br>
-
 <p>We can also check if values are greater than or lesser than each other using > and <. <br> <b>Note:</b> If you try to compare data types that aren’t compatible, like checking if a string is greater than an integer, Python will throw a TypeError.</p>
 
 <p>The three main logical operators are <b>and</b>, <b>or</b>, and <b>not</b>. When using the <b>and</b> operator, both sides of the statement being evaluated must be true for the whole statement to be true. When using the <b>or</b> operator, if either side of the comparison is true, then the whole statement is true. Lastly, the <b>not</b> operator simply inverts the value of the statement immediately following it. So if a statement evaluates to True, and we put the not operator in front of it, it would become False.</p>
