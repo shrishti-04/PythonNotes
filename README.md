@@ -156,20 +156,20 @@ for index, element in enumerate(sequence) - Iterates over both the indexes and t
 
 <p>Operations</p>
 <ul>
-<li>len(dictionary) - Returns the number of items in the dictionary<li>
-<li>for key in dictionary - Iterates over each key in the dictionary<li>
-<li>for key, value in dictionary.items() - Iterates over each key,value pair in the dictionary<li>
-<li>if key in dictionary - Checks whether the key is in the dictionary<li>
-<li>dictionary[key] - Accesses the item with key key of the dictionary<li>
-<li>dictionary[key] = value - Sets the value associated with key<li>
-<li>del dictionary[key] - Removes the item with key key from the dictionary<li>
+<li>len(dictionary) - Returns the number of items in the dictionary</li>
+<li>for key in dictionary - Iterates over each key in the dictionary</li>
+<li>for key, value in dictionary.items() - Iterates over each key,value pair in the dictionary</li>
+<li>if key in dictionary - Checks whether the key is in the dictionary</li>
+<li>dictionary[key] - Accesses the item with key key of the dictionary</li>
+<li>dictionary[key] = value - Sets the value associated with key</li>
+<li>del dictionary[key] - Removes the item with key key from the dictionary</li>
 </ul>
 
 <p>Methods</p>
 <ul>
-<li>dict.get(key, default) - Returns the element corresponding to key, or default if it's not present<li>
-<li>dict.keys() - Returns a sequence containing the keys in the dictionary<li>
-<li>dict.values() - Returns a sequence containing the values in the dictionary<li>
-<li>dict.update(other_dictionary) - Updates the dictionary with the items coming from the other dictionary. Existing entries will be replaced; new entries will be added.<li>
-<li>dict.clear() - Removes all the items of the dictionary<li>
+<li>dict.get(key, default) - Returns the element corresponding to key, or default if it's not present</li>
+<li>dict.keys() - Returns a sequence containing the keys in the dictionary</li>
+<li>dict.values() - Returns a sequence containing the values in the dictionary</li>
+<li>dict.update(other_dictionary) - Updates the dictionary with the items coming from the other dictionary. Existing entries will be replaced; new entries will be added.</li>
+<li>dict.clear() - Removes all the items of the dictionary</li>
 </ul>
