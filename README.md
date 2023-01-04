@@ -148,3 +148,28 @@ for index, element in enumerate(sequence) - Iterates over both the indexes and t
 
 <li>list.extend(other_list) - Appends all the elements of other_list at the end of list </li>
 </ul> <p>
+
+<h3>Dictionaries</h3>
+<p>Dictionaries are another data structure in Python. They’re similar to a list in that they can be used to organize data into collections. However, data in a dictionary isn't accessed based on its position. Data in a dictionary is organized into pairs of keys and values. You use the key to access the corresponding value. Where a list index is always a number, a dictionary key can be a different data type, like a string, integer, float, or even tuples. Dictionaries are mutable, meaning they can be modified by adding, removing, and replacing elements in a dictionary, similar to lists.</p>
+
+<h4>Dictionary Operations and Methods:</h4>
+
+<p>Operations</p>
+<ul>
+<li>len(dictionary) - Returns the number of items in the dictionary<li>
+<li>for key in dictionary - Iterates over each key in the dictionary<li>
+<li>for key, value in dictionary.items() - Iterates over each key,value pair in the dictionary<li>
+<li>if key in dictionary - Checks whether the key is in the dictionary<li>
+<li>dictionary[key] - Accesses the item with key key of the dictionary<li>
+<li>dictionary[key] = value - Sets the value associated with key<li>
+<li>del dictionary[key] - Removes the item with key key from the dictionary<li>
+</ul>
+
+<p>Methods</p>
+<ul>
+<li>dict.get(key, default) - Returns the element corresponding to key, or default if it's not present<li>
+<li>dict.keys() - Returns a sequence containing the keys in the dictionary<li>
+<li>dict.values() - Returns a sequence containing the values in the dictionary<li>
+<li>dict.update(other_dictionary) - Updates the dictionary with the items coming from the other dictionary. Existing entries will be replaced; new entries will be added.<li>
+<li>dict.clear() - Removes all the items of the dictionary<li>
+</ul>
