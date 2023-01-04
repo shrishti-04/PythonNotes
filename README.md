@@ -38,6 +38,7 @@ a % b = The remainder part of the integer division of a by b </p>
 <ul>
 <li>To check if two values are the same, we can use the equality operator: == </li>
 <li>To check if two values are not the same, we can use the not equals operator: != </li>
+</ul>
 
 <p>We can also check if values are greater than or lesser than each other using > and <. <br> <b>Note:</b> If you try to compare data types that aren’t compatible, like checking if a string is greater than an integer, Python will throw a TypeError.</p>
 
