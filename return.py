@@ -27,10 +27,10 @@ print(result)
 
 # Q3. Functions also reduces the amount of code. For example:
 
-# june_days = 30
-# print("June has " + str(june_days) + " days")
-# july_days = 30
-# print("July has " + str(july_days) + " days")
+june_days = 30
+print("June has " + str(june_days) + " days")
+july_days = 30
+print("July has " + str(july_days) + " days")
 
 # OUTPUT
 
