@@ -1,4 +1,4 @@
-# Q1.) The is_positive function should print True if the number received 
+# Q1.) The is_positive function should print true if the number received 
 # is positive, otherwise it prints None.
 
 def is_positive(number):
