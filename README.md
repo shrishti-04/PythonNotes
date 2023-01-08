@@ -213,20 +213,20 @@ while objects are instances of classes.</h5>
 <p>Python modules are separate files that contain classes, functions, and other data that allow us to import and make use of these methods and classes in our own code. Python comes with a lot of modules out of the box. These modules are referred to as the Python Standard Library. You can make use of these modules by using the import keyword, followed by the module name. For example, we'll import the <b>Random</b> module, and then call the <b>randint</b> function within this module:</p>
 
 <p>import random
-random.randint(1,10)
-8
-random.randint(1,10)
-7
-random.randint(1,10)
-1</p>
+random.randint(1,10) <br>
+8 <br>
+random.randint(1,10) <br>
+7 <br>
+random.randint(1,10)<br>
+1<br></p>
 
 <p><b>Datetime:</b> This module is super helpful when working with dates and times.</p>
-<p>import datetime
-now = datetime.datetime.now()
-type(now)
-class 'datetime.datetime'
-print(now)
-2019-04-24 16:54:55.155199</p>
+<p>import datetime<br>
+now = datetime.datetime.now()<br>
+type(now)<br>
+class 'datetime.datetime'<br>
+print(now)<br>
+2019-04-24 16:54:55.155199<br></p>
 
 <p><b>Note:</b> You can view modules in the given link below</p>
 <a href='https://pypi.org/'>Packages</a>
