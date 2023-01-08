@@ -172,3 +172,61 @@ for index, element in enumerate(sequence) - Iterates over both the indexes and t
 <li>dict.update(other_dictionary) - Updates the dictionary with the items coming from the other dictionary. Existing entries will be replaced; new entries will be added.</li>
 <li>dict.clear() - Removes all the items of the dictionary</li>
 </ul>
+
+<h2>Object Oriented Programming</h2>
+<h5>This is a flexible, powerful paradigm where classes represents and define classes, 
+while objects are instances of classes.</h5>
+<p>In object-oriented programming, concepts are modeled as classes and objects. An idea is defined using a class, and an instance of this class is called an object. Almost everything in Python is an object, including strings, lists, dictionaries, and numbers. When we create a list in Python, we’re creating an object which is an instance of the list class, which represents the concept of a list. Classes also have attributes and methods associated with them. Attributes are the characteristics of the class, while methods are functions that are part of the class.</p>
+
+<h3>Classes and instances</h3>
+<ul>
+<li>Classes define the behavior of all instances of a specific class.</li>
+<li>Each variable of a specific class is an instance or object.</li>
+<li>Objects can have attributes, which store information about the object.</li>
+<li>You can make objects do work by calling their methods.</li>
+<li>The first parameter of the methods (self) represents the current instance.</li>
+<li>Methods are just like functions, but they can only be used through a class.</li>
+</ul>
+
+<h4>Method</h4>
+<p>Calling methods on objects executes functions that operate on attributes of a specific instance of the class. This means that calling a method on a list, for example, only modifies that instance of a list, and not all lists globally. We can define methods within a class by creating functions inside the class definition.</p>
+
+<h3>Special Methods</h3>
+<ul>
+<li>Special methods start and end with __.</li>
+<li>Special methods have specific names, like __init__ for the constructor or __str__ for the conversion to string.</li>
+</ul>
+
+<h4>Documenting with Docstrings</h4>
+<h5>Help Function</h5>
+<p>The Python Help function can be super helpful for easily pulling up documentation for classes and methods. We can call the help function on one of our classes, which will return some basic info about the methods defined in our class.</p>
+<h5>Docstrings</h5>
+<p>We can add documentation to our own classes, methods, and functions using docstrings. A docstring is a short text explanation of what something does. You can add a docstring to a method, function, or class by first defining it, then adding a description inside triple quotes.</p>
+
+<h4>Inheritence</h4>
+<p>In object-oriented programming, the concept of inheritance allows you to build relationships between objects, grouping together similar concepts and reducing code duplication</p>
+
+<h4>Composition</h4>
+<p>You can have a situation where two different classes are related, but there is no inheritance going on. This is referred to as composition -- where one class makes use of code contained in another class.</p>
+
+<h3>Modules</h3>
+<p>Python modules are separate files that contain classes, functions, and other data that allow us to import and make use of these methods and classes in our own code. Python comes with a lot of modules out of the box. These modules are referred to as the Python Standard Library. You can make use of these modules by using the import keyword, followed by the module name. For example, we'll import the <b>Random</b> module, and then call the <b>randint</b> function within this module:</p>
+
+<p>import random
+random.randint(1,10)
+8
+random.randint(1,10)
+7
+random.randint(1,10)
+1</p>
+
+<p><b>Datetime:</b> This module is super helpful when working with dates and times.</p>
+<p>import datetime
+now = datetime.datetime.now()
+type(now)
+class 'datetime.datetime'
+print(now)
+2019-04-24 16:54:55.155199</p>
+
+<p><b>Note:</b> You can view modules in the given link below</p>
+<a href='https://pypi.org/'>Packages</a>
